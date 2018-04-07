@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+p {
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #999;
+    line-height: 1.8;
+}
+.bar {
+    border-top: 3px solid #bbb;
+    width: 100px;
+    margin: 20px 0 60px 0;
+}
+.container--text-and-image, .container--text-columns {
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+video {
+    margin: 0 auto 90px auto;
+}
+.col-image {
+    width: 100%;
+    margin: 30px auto;
+    height: auto;
+}
+.img-expand {
+    width: 100%;
+    height: auto;
+}
+.logo {
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.legal p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #444;
+}
+.legal h1 {
+    margin-bottom: 30px;
+}
