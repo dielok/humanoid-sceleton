@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 1.8rem;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 p {
     font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -19,8 +20,12 @@ p {
     padding-top: 100px;
     padding-bottom: 160px;
 }
-video {
+video, .container--jumbo .gif {
     margin: 0 auto 90px auto;
+    width: 100%;
+}
+video {
+    display: none;
 }
 .col-image {
     width: 100%;
@@ -44,4 +49,14 @@ video {
 }
 .legal h1 {
     margin-bottom: 30px;
+}
+
+@media (min-width: 350px) {
+    .container--jumbo video {
+        display: block;
+    }
+    
+    .container--jumbo .gif {
+        display: none;
+    }
 }
