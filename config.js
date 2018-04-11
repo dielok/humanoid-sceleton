@@ -1,0 +1,1 @@
+var basepath = "http://localhost/~kehrwasser/hmnd-api/public/"; //"/rest/public/users/"
