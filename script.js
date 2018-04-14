@@ -43,7 +43,7 @@ $('form#betatest').submit(function() {
         dataType: "json",
         success: function(data) {
             
-            window.location.href = "https://humanoid.fivetwenty.de/elasticwork/login.html";
+            window.location.href =  "https://humanoid.fivetwenty.de/elasticwork/login.html";
             
         },
         error: function(data) {
