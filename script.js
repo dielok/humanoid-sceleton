@@ -49,7 +49,16 @@ $('form#betatest').submit(function() {
         error: function(data) {
             
             console.error("error", data);
-            alert("Nutzer bereits vorhanden");
+            
+            if (data.responseJSON.msg.toUpperCase() === "INCOMPLETE DATA") {
+                
+                alert("Bitte geben Sie eine vollständige E-Mail-Adresse und ein Passwort ein");
+                
+            } else {
+                
+                alert("Nutzer bereits vorhanden");
+                
+            }
             
         }
     });
